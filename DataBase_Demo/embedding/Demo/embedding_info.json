@@ -1,0 +1,10 @@
+{
+  "type": "tfidf_char",
+  "ngram_range": [
+    3,
+    5
+  ],
+  "max_features": 2000,
+  "n_samples": 1050,
+  "dim": 2000
+}

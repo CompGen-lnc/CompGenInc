@@ -1,0 +1,1 @@
+Me falta agregar el lncrna_doc2vec.model.dv.vectors.npy, pero pesa mucho
