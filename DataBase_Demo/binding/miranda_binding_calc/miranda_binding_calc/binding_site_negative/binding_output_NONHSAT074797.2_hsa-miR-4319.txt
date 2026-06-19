@@ -1,0 +1,68 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	input_mir.fa
+Reference Filename:	input_lnc.fa
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-4319 (17 nt)
+Read Sequence:NONHSAT074797.2 (4635 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-4319 vs NONHSAT074797.2
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 142.000000  Q:2 to 11  R:465 to 481 Align Len (9) (88.89%) (88.89%)
+
+   Query:    3' caccgaaACGAGUCCCu 5'
+                       | ||||||| 
+   Ref:      5' gttgggaTCCTCAGGGc 3'
+
+   Energy:  -15.890000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-4319	NONHSAT074797.2	142.00	-15.89	2 11	465 481	9	88.89%	88.89%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:260 to 276 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' caccgaaacGAGUCCCu 5'
+                         ||||||| 
+   Ref:      5' gtacatcgcCTCAGGGc 3'
+
+   Energy:  -13.380000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-4319	NONHSAT074797.2	140.00	-13.38	2 9	260 276	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-4319	NONHSAT074797.2	282.00	-29.27	142.00	-15.89	1	17	4635	 465 260
+Complete
+
+Scan Complete
+

@@ -1,0 +1,176 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	input_mir.fa
+Reference Filename:	input_lnc.fa
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-9-5p (23 nt)
+Read Sequence:NONHSAT137545.2 (12117 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-9-5p vs NONHSAT137545.2
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 152.000000  Q:2 to 16  R:6810 to 6832 Align Len (15) (86.67%) (86.67%)
+
+   Query:    3' aguaugucGAUCUA-UUGGUUUCu 5'
+                        || ||| |||||||| 
+   Ref:      5' agggtgtcCT-GATCAACCAAAGt 3'
+
+   Energy:  -13.540000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-9-5p	NONHSAT137545.2	152.00	-13.54	2 16	6810 6832	15	86.67%	86.67%
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:5630 to 5651 Align Len (15) (86.67%) (93.33%)
+
+   Query:    3' aguauguCGAUCUAUUGGUUUCu 5'
+                       ||| |||||||||:| 
+   Ref:      5' taggtgtGCT-GATAACCAAGGc 3'
+
+   Energy:  -19.840000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-9-5p	NONHSAT137545.2	150.00	-19.84	2 17	5630 5651	15	86.67%	93.33%
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:5921 to 5942 Align Len (15) (86.67%) (93.33%)
+
+   Query:    3' aguauguCGAUCUAUUGGUUUCu 5'
+                       ||| |||||||||:| 
+   Ref:      5' caggggtGCT-GATAACCAAGGc 3'
+
+   Energy:  -18.840000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-9-5p	NONHSAT137545.2	150.00	-18.84	2 17	5921 5942	15	86.67%	93.33%
+
+
+   Forward:	Score: 145.000000  Q:2 to 20  R:391 to 412 Align Len (18) (77.78%) (94.44%)
+
+   Query:    3' aguaUGUCGAUCUAUUGGUUUCu 5'
+                    :||| ||||||::||||| 
+   Ref:      5' tttgGCAG-TAGATAGTCAAAGt 3'
+
+   Energy:  -21.459999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-9-5p	NONHSAT137545.2	145.00	-21.46	2 20	391 412	18	77.78%	94.44%
+
+
+   Forward:	Score: 144.000000  Q:2 to 21  R:4906 to 4928 Align Len (19) (68.42%) (89.47%)
+
+   Query:    3' aguAUGUCGAUCUAUUGGUUUCu 5'
+                   |||| :|:|| ||:|||:| 
+   Ref:      5' catTACATTTGGACAATCAAGGt 3'
+
+   Energy:  -17.040001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-9-5p	NONHSAT137545.2	144.00	-17.04	2 21	4906 4928	19	68.42%	89.47%
+
+
+   Forward:	Score: 144.000000  Q:2 to 21  R:5206 to 5228 Align Len (19) (68.42%) (89.47%)
+
+   Query:    3' aguAUGUCGAUCUAUUGGUUUCu 5'
+                   |||| :|:|| ||:|||:| 
+   Ref:      5' cctTACATTTGGACAATCAAGGt 3'
+
+   Energy:  -16.709999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-9-5p	NONHSAT137545.2	144.00	-16.71	2 21	5206 5228	19	68.42%	89.47%
+
+
+   Forward:	Score: 144.000000  Q:2 to 21  R:6081 to 6103 Align Len (19) (68.42%) (89.47%)
+
+   Query:    3' aguAUGUCGAUCUAUUGGUUUCu 5'
+                   |||| :|:|| ||:|||:| 
+   Ref:      5' cctTACATTTGGACAATCAAGGt 3'
+
+   Energy:  -16.709999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-9-5p	NONHSAT137545.2	144.00	-16.71	2 21	6081 6103	19	68.42%	89.47%
+
+
+   Forward:	Score: 142.000000  Q:2 to 17  R:4458 to 4479 Align Len (15) (80.00%) (86.67%)
+
+   Query:    3' aguauguCGAUCUAUUGGUUUCu 5'
+                       ||| ||| |||||:| 
+   Ref:      5' caggggtGCT-GATCACCAAGGc 3'
+
+   Energy:  -14.870000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-9-5p	NONHSAT137545.2	142.00	-14.87	2 17	4458 4479	15	80.00%	86.67%
+
+
+   Forward:	Score: 142.000000  Q:2 to 17  R:4746 to 4767 Align Len (15) (80.00%) (86.67%)
+
+   Query:    3' aguauguCGAUCUAUUGGUUUCu 5'
+                       ||| ||| |||||:| 
+   Ref:      5' caggggtGCT-GATCACCAAGGc 3'
+
+   Energy:  -14.870000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-9-5p	NONHSAT137545.2	142.00	-14.87	2 17	4746 4767	15	80.00%	86.67%
+
+
+   Forward:	Score: 142.000000  Q:2 to 17  R:5340 to 5361 Align Len (15) (80.00%) (86.67%)
+
+   Query:    3' aguauguCGAUCUAUUGGUUUCu 5'
+                       ||| ||| |||||:| 
+   Ref:      5' caggggtGCT-GATCACCAAGGc 3'
+
+   Energy:  -14.870000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-9-5p	NONHSAT137545.2	142.00	-14.87	2 17	5340 5361	15	80.00%	86.67%
+
+
+   Forward:	Score: 140.000000  Q:2 to 21  R:4614 to 4636 Align Len (19) (63.16%) (89.47%)
+
+   Query:    3' aguAUGUCGAUCUAUUGGUUUCu 5'
+                   |||: :|:|| ||:|||:| 
+   Ref:      5' gctTACGTTTGGACAATCAAGGt 3'
+
+   Energy:  -18.010000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-9-5p	NONHSAT137545.2	140.00	-18.01	2 21	4614 4636	19	63.16%	89.47%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-9-5p	NONHSAT137545.2	1595.00	-186.76	152.00	-21.46	1	23	12117	 6810 5630 5921 391 4906 5206 6081 4458 4746 5340 4614
+Complete
+
+Scan Complete
+

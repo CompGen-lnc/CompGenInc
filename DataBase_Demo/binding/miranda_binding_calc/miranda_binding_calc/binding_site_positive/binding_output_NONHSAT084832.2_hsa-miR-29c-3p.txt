@@ -1,0 +1,128 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	input_mir.fa
+Reference Filename:	input_lnc.fa
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-29c-3p (22 nt)
+Read Sequence:NONHSAT084832.2 (15053 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-29c-3p vs NONHSAT084832.2
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 163.000000  Q:2 to 16  R:1489 to 1510 Align Len (14) (85.71%) (92.86%)
+
+   Query:    3' auuggcuAAAGUUUACCACGAu 5'
+                       |||:| |||||||| 
+   Ref:      5' ggcttctTTTTACATGGTGCTg 3'
+
+   Energy:  -17.070000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29c-3p	NONHSAT084832.2	163.00	-17.07	2 16	1489 1510	14	85.71%	92.86%
+
+
+   Forward:	Score: 154.000000  Q:2 to 20  R:1873 to 1896 Align Len (20) (65.00%) (80.00%)
+
+   Query:    3' auuGGCUAA--AGUUUACCACGAu 5'
+                   :|| ||  | :|:||||||| 
+   Ref:      5' tttTCGTTTTGTGGAGTGGTGCTc 3'
+
+   Energy:  -17.559999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29c-3p	NONHSAT084832.2	154.00	-17.56	2 20	1873 1896	20	65.00%	80.00%
+
+
+   Forward:	Score: 148.000000  Q:2 to 21  R:8141 to 8162 Align Len (19) (68.42%) (78.95%)
+
+   Query:    3' auUGGCUAAAGUUUACCACGAu 5'
+                  ||: || ||  ||||||:| 
+   Ref:      5' aaACTTATCTCTCATGGTGTTt 3'
+
+   Energy:  -15.580000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29c-3p	NONHSAT084832.2	148.00	-15.58	2 21	8141 8162	19	68.42%	78.95%
+
+
+   Forward:	Score: 143.000000  Q:3 to 21  R:5611 to 5634 Align Len (20) (65.00%) (85.00%)
+
+   Query:    3' auUGGCUAAAGUUU--ACCACGau 5'
+                  :| |:|||::||  ||||||  
+   Ref:      5' aaGCGGGTTTTGAAGCTGGTGCct 3'
+
+   Energy:  -18.180000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29c-3p	NONHSAT084832.2	143.00	-18.18	3 21	5611 5634	20	65.00%	85.00%
+
+
+   Forward:	Score: 143.000000  Q:2 to 20  R:11118 to 11139 Align Len (18) (72.22%) (88.89%)
+
+   Query:    3' auuGGCUAAAGUUUACCACGAu 5'
+                   |:|: |||||:|||| || 
+   Ref:      5' ctcCTGGGTTCAAGTGGTTCTc 3'
+
+   Energy:  -19.180000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29c-3p	NONHSAT084832.2	143.00	-19.18	2 20	11118 11139	18	72.22%	88.89%
+
+
+   Forward:	Score: 143.000000  Q:2 to 18  R:14971 to 14997 Align Len (21) (66.67%) (71.43%)
+
+   Query:    3' auuggCUAAA---GUUU--ACCACGAu 5'
+                     |:|||    |||  ||||||| 
+   Ref:      5' tgaggGGTTTGGAGAAACTTGGTGCTt 3'
+
+   Energy:  -15.470000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29c-3p	NONHSAT084832.2	143.00	-15.47	2 18	14971 14997	21	66.67%	71.43%
+
+
+   Forward:	Score: 140.000000  Q:2 to 21  R:7536 to 7557 Align Len (19) (73.68%) (78.95%)
+
+   Query:    3' auUGGCUAAAGUUUACCACGAu 5'
+                  :||  ||||| ||| |||| 
+   Ref:      5' ctGCCTTTTTCACATGTTGCTg 3'
+
+   Energy:  -16.170000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29c-3p	NONHSAT084832.2	140.00	-16.17	2 21	7536 7557	19	73.68%	78.95%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-29c-3p	NONHSAT084832.2	1034.00	-119.21	163.00	-19.18	1	22	15053	 1489 1873 8141 5611 11118 14971 7536
+Complete
+
+Scan Complete
+

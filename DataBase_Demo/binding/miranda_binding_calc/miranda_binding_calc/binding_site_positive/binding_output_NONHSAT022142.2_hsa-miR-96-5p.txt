@@ -1,0 +1,68 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	input_mir.fa
+Reference Filename:	input_lnc.fa
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-96-5p (23 nt)
+Read Sequence:NONHSAT022142.2 (5259 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-96-5p vs NONHSAT022142.2
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 167.000000  Q:2 to 21  R:3376 to 3399 Align Len (20) (70.00%) (90.00%)
+
+   Query:    3' ucgUUUUUACACGAU-CACGGUUu 5'
+                   :|:: ||||||: ||||||| 
+   Ref:      5' gagGAGGCTGTGCTGTGTGCCAAt 3'
+
+   Energy:  -23.870001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-96-5p	NONHSAT022142.2	167.00	-23.87	2 21	3376 3399	20	70.00%	90.00%
+
+
+   Forward:	Score: 145.000000  Q:2 to 22  R:1661 to 1683 Align Len (20) (60.00%) (65.00%)
+
+   Query:    3' ucGUUUUUACACGAUCACGGUUu 5'
+                  | |: |||     ||||||| 
+   Ref:      5' gaCCAGCATGCCAGTGTGCCAAg 3'
+
+   Energy:  -15.870000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-96-5p	NONHSAT022142.2	145.00	-15.87	2 22	1661 1683	20	60.00%	65.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-96-5p	NONHSAT022142.2	312.00	-39.74	167.00	-23.87	1	23	5259	 3376 1661
+Complete
+
+Scan Complete
+

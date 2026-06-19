@@ -1,0 +1,116 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	input_mir.fa
+Reference Filename:	input_lnc.fa
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-let-7f-5p (22 nt)
+Read Sequence:NONHSAT022112.2 (22744 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7f-5p vs NONHSAT022112.2
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 154.000000  Q:2 to 15  R:13414 to 13435 Align Len (13) (76.92%) (92.31%)
+
+   Query:    3' uugauaugUUAGAUGAUGGAGu 5'
+                        :| :||||||||| 
+   Ref:      5' cctcggtgGACTTACTACCTCt 3'
+
+   Energy:  -16.520000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7f-5p	NONHSAT022112.2	154.00	-16.52	2 15	13414 13435	13	76.92%	92.31%
+
+
+   Forward:	Score: 150.000000  Q:2 to 16  R:14918 to 14940 Align Len (15) (66.67%) (93.33%)
+
+   Query:    3' uugauauGUUAGAU-GAUGGAGu 5'
+                       :::|||: ||||||| 
+   Ref:      5' ctggtctTGGTCTGTCTACCTCg 3'
+
+   Energy:  -19.650000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7f-5p	NONHSAT022112.2	150.00	-19.65	2 16	14918 14940	15	66.67%	93.33%
+
+
+   Forward:	Score: 144.000000  Q:2 to 21  R:6647 to 6666 Align Len (19) (73.68%) (84.21%)
+
+   Query:    3' uuGAUAUGUUAGAUGAUGGAGu 5'
+                  ||: || |||| ||||||: 
+   Ref:      5' gaCTGAAC-ATCT-CTACCTTg 3'
+
+   Energy:  -18.459999 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7f-5p	NONHSAT022112.2	144.00	-18.46	2 21	6647 6666	19	73.68%	84.21%
+
+
+   Forward:	Score: 144.000000  Q:2 to 21  R:7396 to 7417 Align Len (19) (63.16%) (78.95%)
+
+   Query:    3' uuGAUAUGUUAGAUGAUGGAGu 5'
+                  | :|: | ||| ||:|||| 
+   Ref:      5' caCAGTGAACTCTCCTGCCTCt 3'
+
+   Energy:  -15.300000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7f-5p	NONHSAT022112.2	144.00	-15.30	2 21	7396 7417	19	63.16%	78.95%
+
+
+   Forward:	Score: 142.000000  Q:2 to 20  R:4181 to 4203 Align Len (19) (63.16%) (84.21%)
+
+   Query:    3' uugAUAUGU-UAGAUGAUGGAGu 5'
+                   |||:|: | :| :|||||| 
+   Ref:      5' gtgTATGCGTAATTCTTACCTCa 3'
+
+   Energy:  -17.440001 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7f-5p	NONHSAT022112.2	142.00	-17.44	2 20	4181 4203	19	63.16%	84.21%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:14737 to 14758 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' uugauauguuagauGAUGGAGu 5'
+                              ||||||| 
+   Ref:      5' agcgaagggaagccCTACCTCa 3'
+
+   Energy:  -14.570000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7f-5p	NONHSAT022112.2	140.00	-14.57	2 9	14737 14758	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-let-7f-5p	NONHSAT022112.2	874.00	-101.94	154.00	-19.65	1	22	22744	 13414 14918 6647 7396 4181 14737
+Complete
+
+Scan Complete
+

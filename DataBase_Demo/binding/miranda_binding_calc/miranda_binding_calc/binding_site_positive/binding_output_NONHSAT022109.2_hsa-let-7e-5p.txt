@@ -1,0 +1,212 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	input_mir.fa
+Reference Filename:	input_lnc.fa
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-let-7e-5p (22 nt)
+Read Sequence:NONHSAT022109.2 (31379 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7e-5p vs NONHSAT022109.2
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 168.000000  Q:2 to 17  R:31044 to 31065 Align Len (15) (86.67%) (93.33%)
+
+   Query:    3' uugauaUGUUGGAGGAUGGAGu 5'
+                      ||| :|||||||||| 
+   Ref:      5' ttcacgACATTCTCCTACCTCa 3'
+
+   Energy:  -27.400000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7e-5p	NONHSAT022109.2	168.00	-27.40	2 17	31044 31065	15	86.67%	93.33%
+
+
+   Forward:	Score: 158.000000  Q:2 to 21  R:3139 to 3159 Align Len (19) (73.68%) (78.95%)
+
+   Query:    3' uuGAUAUGUUGGAGGAUGGAGu 5'
+                  :| | || ||| ||||||| 
+   Ref:      5' ccTTTTTCATCCT-CTACCTCa 3'
+
+   Energy:  -19.959999 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7e-5p	NONHSAT022109.2	158.00	-19.96	2 21	3139 3159	19	73.68%	78.95%
+
+
+   Forward:	Score: 154.000000  Q:2 to 15  R:17496 to 17517 Align Len (13) (76.92%) (92.31%)
+
+   Query:    3' uugauaugUUGGAGGAUGGAGu 5'
+                        :||:| ||||||| 
+   Ref:      5' cctcggtgGACTTACTACCTCt 3'
+
+   Energy:  -15.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7e-5p	NONHSAT022109.2	154.00	-15.59	2 15	17496 17517	13	76.92%	92.31%
+
+
+   Forward:	Score: 154.000000  Q:3 to 19  R:19802 to 19823 Align Len (16) (81.25%) (93.75%)
+
+   Query:    3' uugaUAUGUUGGAGGAUGGAgu 5'
+                    | |:|||:||||||||  
+   Ref:      5' aaaaAAATAACTTCCTACCTgt 3'
+
+   Energy:  -21.910000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7e-5p	NONHSAT022109.2	154.00	-21.91	3 19	19802 19823	16	81.25%	93.75%
+
+
+   Forward:	Score: 150.000000  Q:2 to 20  R:8263 to 8285 Align Len (19) (68.42%) (89.47%)
+
+   Query:    3' uugAUAUGU-UGGAGGAUGGAGu 5'
+                   |||:|: | :||:|||||| 
+   Ref:      5' gtgTATGCGTAATTCTTACCTCa 3'
+
+   Energy:  -24.150000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7e-5p	NONHSAT022109.2	150.00	-24.15	2 20	8263 8285	19	68.42%	89.47%
+
+
+   Forward:	Score: 148.000000  Q:2 to 21  R:11478 to 11499 Align Len (19) (63.16%) (84.21%)
+
+   Query:    3' uuGAUAUGUUGGAGGAUGGAGu 5'
+                  | :|: | :|||||:|||| 
+   Ref:      5' caCAGTGAACTCTCCTGCCTCt 3'
+
+   Energy:  -22.280001 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7e-5p	NONHSAT022109.2	148.00	-22.28	2 21	11478 11499	19	63.16%	84.21%
+
+
+   Forward:	Score: 148.000000  Q:2 to 15  R:18820 to 18840 Align Len (13) (84.62%) (84.62%)
+
+   Query:    3' uugauaugUUGGAGGAUGGAGu 5'
+                        || | |||||||| 
+   Ref:      5' gcgaagggAAGC-CCTACCTCa 3'
+
+   Energy:  -18.719999 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7e-5p	NONHSAT022109.2	148.00	-18.72	2 15	18820 18840	13	84.62%	84.62%
+
+
+   Forward:	Score: 146.000000  Q:2 to 16  R:19000 to 19022 Align Len (15) (60.00%) (93.33%)
+
+   Query:    3' uugauauGUUGGA-GGAUGGAGu 5'
+                       ::::|| :||||||| 
+   Ref:      5' ctggtctTGGTCTGTCTACCTCg 3'
+
+   Energy:  -19.629999 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7e-5p	NONHSAT022109.2	146.00	-19.63	2 16	19000 19022	15	60.00%	93.33%
+
+
+   Forward:	Score: 144.000000  Q:2 to 21  R:201 to 222 Align Len (19) (63.16%) (78.95%)
+
+   Query:    3' uuGAUAUGUUGGAGGAUGGAGu 5'
+                  :| | |  :|||||:|||| 
+   Ref:      5' ccTTCTTCCCTCTCCTGCCTCc 3'
+
+   Energy:  -21.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7e-5p	NONHSAT022109.2	144.00	-21.59	2 21	201 222	19	63.16%	78.95%
+
+
+   Forward:	Score: 144.000000  Q:2 to 21  R:12669 to 12690 Align Len (19) (63.16%) (78.95%)
+
+   Query:    3' uuGAUAUGUUGGAGGAUGGAGu 5'
+                  || | ::|  ||||||||: 
+   Ref:      5' atCTTTTTGAGATCCTACCTTc 3'
+
+   Energy:  -15.160000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7e-5p	NONHSAT022109.2	144.00	-15.16	2 21	12669 12690	19	63.16%	78.95%
+
+
+   Forward:	Score: 140.000000  Q:2 to 21  R:2221 to 2242 Align Len (19) (63.16%) (73.68%)
+
+   Query:    3' uuGAUAUGUUGGAGGAUGGAGu 5'
+                  | | : | ||| ||:|||| 
+   Ref:      5' ctCAAGGGATCCTGCTGCCTCa 3'
+
+   Energy:  -20.530001 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7e-5p	NONHSAT022109.2	140.00	-20.53	2 21	2221 2242	19	63.16%	73.68%
+
+
+   Forward:	Score: 140.000000  Q:2 to 21  R:10729 to 10748 Align Len (19) (68.42%) (84.21%)
+
+   Query:    3' uuGAUAUGUUGGAGGAUGGAGu 5'
+                  ||: || |:|| ||||||: 
+   Ref:      5' gaCTGAAC-ATCT-CTACCTTg 3'
+
+   Energy:  -18.190001 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7e-5p	NONHSAT022109.2	140.00	-18.19	2 21	10729 10748	19	68.42%	84.21%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:28562 to 28583 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' uugauauguuggagGAUGGAGu 5'
+                              ||||||| 
+   Ref:      5' ggagtcactgatagCTACCTCa 3'
+
+   Energy:  -15.950000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7e-5p	NONHSAT022109.2	140.00	-15.95	2 9	28562 28583	7	100.00%	100.00%
+
+
+   Forward:	Score: 140.000000  Q:2 to 17  R:29181 to 29202 Align Len (15) (66.67%) (86.67%)
+
+   Query:    3' uugauaUGUUGGAGGAUGGAGu 5'
+                      | | :||:||:|||| 
+   Ref:      5' cctcccAAATTCTTCTGCCTCa 3'
+
+   Energy:  -20.090000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7e-5p	NONHSAT022109.2	140.00	-20.09	2 17	29181 29202	15	66.67%	86.67%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-let-7e-5p	NONHSAT022109.2	2074.00	-281.15	168.00	-27.40	1	22	31379	 31044 3139 17496 19802 8263 11478 18820 19000 201 12669 2221 10729 28562 29181
+Complete
+
+Scan Complete
+

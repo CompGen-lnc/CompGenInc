@@ -1,0 +1,116 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	input_mir.fa
+Reference Filename:	input_lnc.fa
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-320b (22 nt)
+Read Sequence:NONHSAT011933.2 (14607 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-320b vs NONHSAT011933.2
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 166.000000  Q:2 to 19  R:1697 to 1718 Align Len (17) (76.47%) (88.24%)
+
+   Query:    3' aacgGGAGAGUUGGGUCGAAAa 5'
+                    |||| | ::|||||||| 
+   Ref:      5' gccaCCTCCCTGTCCAGCTTTg 3'
+
+   Energy:  -22.270000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-320b	NONHSAT011933.2	166.00	-22.27	2 19	1697 1718	17	76.47%	88.24%
+
+
+   Forward:	Score: 163.000000  Q:2 to 20  R:13416 to 13437 Align Len (18) (72.22%) (83.33%)
+
+   Query:    3' aacGGGAGAGUUGGGUCGAAAa 5'
+                   :||| ||  :|||||||| 
+   Ref:      5' acaTCCTGTCTTTCCAGCTTTc 3'
+
+   Energy:  -24.129999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-320b	NONHSAT011933.2	163.00	-24.13	2 20	13416 13437	18	72.22%	83.33%
+
+
+   Forward:	Score: 159.000000  Q:2 to 21  R:13887 to 13909 Align Len (20) (65.00%) (85.00%)
+
+   Query:    3' aaCGGGAGAGUU-GGGUCGAAAa 5'
+                  |:|: :| || :|||||||| 
+   Ref:      5' gtGTCTGTTGAAGTCCAGCTTTg 3'
+
+   Energy:  -20.650000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-320b	NONHSAT011933.2	159.00	-20.65	2 21	13887 13909	20	65.00%	85.00%
+
+
+   Forward:	Score: 150.000000  Q:2 to 11  R:3313 to 3334 Align Len (9) (100.00%) (100.00%)
+
+   Query:    3' aacgggagaguuGGGUCGAAAa 5'
+                            ||||||||| 
+   Ref:      5' ggtagaaaatgtCCCAGCTTTg 3'
+
+   Energy:  -14.850000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-320b	NONHSAT011933.2	150.00	-14.85	2 11	3313 3334	9	100.00%	100.00%
+
+
+   Forward:	Score: 148.000000  Q:3 to 21  R:5986 to 6007 Align Len (18) (72.22%) (83.33%)
+
+   Query:    3' aaCGGGAGAGUUGGGUCGAAaa 5'
+                  ||| |: || :|||||||  
+   Ref:      5' acGCCATTGCATTCCAGCTTgg 3'
+
+   Energy:  -19.160000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-320b	NONHSAT011933.2	148.00	-19.16	3 21	5986 6007	18	72.22%	83.33%
+
+
+   Forward:	Score: 140.000000  Q:2 to 21  R:8484 to 8505 Align Len (19) (57.89%) (78.95%)
+
+   Query:    3' aaCGGGAGAGUUGGGUCGAAAa 5'
+                  |:|| |  : |:|||:||| 
+   Ref:      5' taGTCCACAAGTCTCAGTTTTa 3'
+
+   Energy:  -15.690000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-320b	NONHSAT011933.2	140.00	-15.69	2 21	8484 8505	19	57.89%	78.95%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-320b	NONHSAT011933.2	926.00	-116.75	166.00	-24.13	1	22	14607	 1697 13416 13887 3313 5986 8484
+Complete
+
+Scan Complete
+

@@ -1,0 +1,68 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	input_mir.fa
+Reference Filename:	input_lnc.fa
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-3619-5p (22 nt)
+Read Sequence:NONHSAT116228.2 (2418 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-3619-5p vs NONHSAT116228.2
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 153.000000  Q:2 to 21  R:2150 to 2171 Align Len (20) (70.00%) (80.00%)
+
+   Query:    3' cgACGUGGUCGGAC-GGACGACu 5'
+                  ||| :|| : || ||||||| 
+   Ref:      5' tgTGCCTCA-TGTGTCCTGCTGt 3'
+
+   Energy:  -21.299999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3619-5p	NONHSAT116228.2	153.00	-21.30	2 21	2150 2171	20	70.00%	80.00%
+
+
+   Forward:	Score: 142.000000  Q:2 to 21  R:11 to 35 Align Len (22) (63.64%) (68.18%)
+
+   Query:    3' cgACGUG-GUCGGAC--GGACGACu 5'
+                  ||| | |  : ||  ||||||| 
+   Ref:      5' acTGCTCTCCTTGTGCCCCTGCTGa 3'
+
+   Energy:  -27.650000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3619-5p	NONHSAT116228.2	142.00	-27.65	2 21	11 35	22	63.64%	68.18%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3619-5p	NONHSAT116228.2	295.00	-48.95	153.00	-27.65	1	22	2418	 2150 11
+Complete
+
+Scan Complete
+

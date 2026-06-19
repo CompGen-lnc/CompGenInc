@@ -1,0 +1,92 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	input_mir.fa
+Reference Filename:	input_lnc.fa
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-20a-5p (23 nt)
+Read Sequence:NONHSAT034667.2 (8854 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-20a-5p vs NONHSAT034667.2
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 167.000000  Q:3 to 20  R:1296 to 1318 Align Len (17) (88.24%) (100.00%)
+
+   Query:    3' gaugGACGUGAUAUUCGUGAAau 5'
+                    |||||:|||:|||||||  
+   Ref:      5' tctaCTGCATTATGAGCACTTaa 3'
+
+   Energy:  -28.889999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-20a-5p	NONHSAT034667.2	167.00	-28.89	3 20	1296 1318	17	88.24%	100.00%
+
+
+   Forward:	Score: 151.000000  Q:3 to 20  R:843 to 865 Align Len (17) (76.47%) (88.24%)
+
+   Query:    3' gaugGACGUGAUAUUCGUGAAau 5'
+                    ||||| |: |:||||||  
+   Ref:      5' tctaCTGCAGTGAAGGCACTTgt 3'
+
+   Energy:  -22.180000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-20a-5p	NONHSAT034667.2	151.00	-22.18	3 20	843 865	17	76.47%	88.24%
+
+
+   Forward:	Score: 141.000000  Q:3 to 22  R:3036 to 3058 Align Len (19) (68.42%) (73.68%)
+
+   Query:    3' gaUGGACGUGAUAUUCGUGAAau 5'
+                  |||| :| |   |||||||  
+   Ref:      5' acACCTATAATCCTAGCACTTgg 3'
+
+   Energy:  -14.600000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-20a-5p	NONHSAT034667.2	141.00	-14.60	3 22	3036 3058	19	68.42%	73.68%
+
+
+   Forward:	Score: 141.000000  Q:3 to 22  R:4022 to 4044 Align Len (19) (63.16%) (78.95%)
+
+   Query:    3' gaUGGACGUGAUAUUCGUGAAau 5'
+                  |::|| |  : ||||||||  
+   Ref:      5' atATTTGGAAAGAAAGCACTTaa 3'
+
+   Energy:  -14.950000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-20a-5p	NONHSAT034667.2	141.00	-14.95	3 22	4022 4044	19	63.16%	78.95%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-20a-5p	NONHSAT034667.2	600.00	-80.62	167.00	-28.89	1	23	8854	 1296 843 3036 4022
+Complete
+
+Scan Complete
+
