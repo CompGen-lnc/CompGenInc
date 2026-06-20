@@ -1,0 +1,78 @@
+External loop                           :  -410
+Interior loop (  1, 37) CG; (  2, 36) UA:  -210
+Interior loop (  2, 36) UA; (  4, 34) CG:  -140
+Interior loop (  4, 34) CG; (  6, 33) UG:   170
+Interior loop (  6, 33) UG; (  7, 32) AU:  -100
+Interior loop (  7, 32) AU; ( 10, 29) GC:   -20
+Interior loop ( 10, 29) GC; ( 11, 28) GC:  -330
+Interior loop ( 11, 28) GC; ( 12, 27) GC:  -330
+Interior loop ( 12, 27) GC; ( 13, 26) GC:  -330
+Interior loop ( 13, 26) GC; ( 14, 25) CG:  -340
+Interior loop ( 14, 25) CG; ( 16, 24) CG:    50
+Interior loop ( 16, 24) CG; ( 17, 23) UA:  -210
+Interior loop ( 17, 23) UA; ( 18, 22) GU:  -100
+Hairpin  loop ( 18, 22) GU              :   590
+Interior loop ( 46,204) GC; ( 47,203) AU:  -240
+Interior loop ( 47,203) AU; ( 48,202) GC:  -210
+Interior loop ( 48,202) GC; ( 49,201) GC:  -330
+Interior loop ( 50, 77) GC; ( 51, 76) CG:  -340
+Interior loop ( 51, 76) CG; ( 52, 75) GC:  -240
+Interior loop ( 52, 75) GC; ( 53, 74) GU:  -150
+Interior loop ( 53, 74) GU; ( 54, 73) UA:  -140
+Interior loop ( 54, 73) UA; ( 55, 72) GU:  -100
+Interior loop ( 55, 72) GU; ( 56, 71) GC:  -210
+Interior loop ( 56, 71) GC; ( 57, 70) CG:  -340
+Interior loop ( 57, 70) CG; ( 59, 68) GC:  -140
+Interior loop ( 59, 68) GC; ( 61, 66) GC:  -220
+Hairpin  loop ( 61, 66) GC              :   310
+Interior loop ( 78,195) GC; ( 79,194) GC:  -330
+Interior loop ( 79,194) GC; ( 80,193) AU:  -240
+Interior loop ( 80,193) AU; ( 82,191) GU:   -70
+Interior loop ( 82,191) GU; ( 84,189) AU:   -70
+Interior loop ( 84,189) AU; ( 85,188) GC:  -210
+Interior loop ( 85,188) GC; ( 86,186) GC:    50
+Interior loop ( 86,186) GC; ( 87,185) CG:  -340
+Interior loop ( 87,185) CG; ( 88,184) AU:  -210
+Interior loop ( 88,184) AU; ( 89,183) CG:  -220
+Interior loop ( 89,183) CG; ( 92,180) GC:    20
+Interior loop ( 92,180) GC; ( 93,179) GC:  -330
+Interior loop ( 93,179) GC; ( 94,177) GC:    50
+Interior loop ( 94,177) GC; ( 95,176) CG:  -340
+Interior loop ( 97,112) GC; ( 98,111) CG:  -340
+Interior loop ( 98,111) CG; ( 99,110) GC:  -240
+Interior loop ( 99,110) GC; (101,108) CG:  -230
+Interior loop (101,108) CG; (102,107) CG:  -330
+Hairpin  loop (102,107) CG              :   410
+Interior loop (114,175) GC; (115,174) CG:  -340
+Interior loop (115,174) CG; (116,173) AU:  -210
+Interior loop (116,173) AU; (117,172) GC:  -210
+Interior loop (117,172) GC; (118,171) CG:  -340
+Interior loop (118,171) CG; (119,170) CG:  -330
+Interior loop (119,170) CG; (120,169) CG:  -330
+Interior loop (120,169) CG; (121,167) UG:   170
+Interior loop (121,167) UG; (122,166) GC:  -140
+Interior loop (122,166) GC; (123,165) CG:  -340
+Interior loop (123,165) CG; (124,164) AU:  -210
+Interior loop (124,164) AU; (125,163) GC:  -210
+Interior loop (125,163) GC; (126,162) GC:  -330
+Interior loop (126,162) GC; (127,161) CG:  -340
+Interior loop (127,161) CG; (129,159) GC:    90
+Interior loop (129,159) GC; (130,158) CG:  -340
+Interior loop (130,158) CG; (131,157) UG:  -210
+Interior loop (131,157) UG; (134,151) AU:   530
+Interior loop (134,151) AU; (135,150) GC:  -210
+Interior loop (135,150) GC; (136,149) AU:  -240
+Interior loop (136,149) AU; (138,147) GC:   120
+Interior loop (138,147) GC; (139,146) CG:  -340
+Interior loop (139,146) CG; (140,145) UG:  -210
+Hairpin  loop (140,145) UG              :   550
+Multi    loop ( 95,176) CG              :   260
+Multi    loop ( 49,201) GC              :   190
+Interior loop (206,239) CG; (207,238) CG:  -330
+Interior loop (207,238) CG; (208,237) CG:  -330
+Interior loop (208,237) CG; (218,228) UG:   260
+Interior loop (218,228) UG; (219,227) AU:  -100
+Interior loop (219,227) AU; (220,226) CG:  -220
+Hairpin  loop (220,226) CG              :   340
+CUGCAUAGAGGGGCGCUGCGCUAGGCCCCGAUGGGAGAGAAGAAGGAGGGCGGUGGCGGGGGUGACGCGGCUAUCGCGGAGGGAGGCACAGGGGCCGCGGCCAGCCGGGCGCUGCAGCCCUGCAGGCAGCUCCAGAAGCUCAUCGGCAUCUCCAUUGGCAGCCUGCGCGGGCUGCGCACCAAGUGCACUGUGUCCAAGGACCUCACCCAGCAGGAGAUACGGACAGUGGAGAUAAGGGGG
+((.(.((..(((((.(((...))))))))..))).))........((((((((((((.(.(....).).))))))))(((.(.((((((..((((.(((.((....)).))).((((((((((((((.(((..(((.(((....))).))).....))).))))))).))))))))).))..)))).)).).))).....)))).(((.........(((.....)))........))). (-103.80)

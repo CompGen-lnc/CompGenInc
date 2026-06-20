@@ -1,0 +1,72 @@
+External loop                           :  -120
+Interior loop (  3,273) GC; (  4,272) GC:  -330
+Interior loop (  4,272) GC; (  5,271) GU:  -150
+Interior loop (  5,271) GU; (  6,270) GC:  -210
+Interior loop ( 10, 50) GU; ( 11, 49) AU:  -130
+Interior loop ( 11, 49) AU; ( 12, 48) AU:   -90
+Interior loop ( 12, 48) AU; ( 13, 47) UA:  -110
+Interior loop ( 13, 47) UA; ( 14, 46) AU:  -130
+Interior loop ( 14, 46) AU; ( 15, 45) UA:  -110
+Interior loop ( 15, 45) UA; ( 16, 44) UA:   -90
+Interior loop ( 16, 44) UA; ( 17, 43) AU:  -130
+Interior loop ( 17, 43) AU; ( 18, 42) GC:  -210
+Interior loop ( 18, 42) GC; ( 23, 36) GU:   270
+Interior loop ( 23, 36) GU; ( 24, 35) CG:  -250
+Interior loop ( 24, 35) CG; ( 25, 34) UG:  -210
+Interior loop ( 25, 34) UG; ( 26, 33) UA:   -60
+Hairpin  loop ( 26, 33) UA              :   530
+Interior loop ( 63, 81) AU; ( 64, 80) UA:  -110
+Interior loop ( 64, 80) UA; ( 65, 79) UA:   -90
+Interior loop ( 65, 79) UA; ( 66, 78) UA:   -90
+Interior loop ( 66, 78) UA; ( 67, 77) GC:  -210
+Interior loop ( 67, 77) GC; ( 68, 76) UA:  -220
+Hairpin  loop ( 68, 76) UA              :   450
+Interior loop ( 84, 99) AU; ( 85, 98) UA:  -110
+Interior loop ( 85, 98) UA; ( 86, 97) AU:  -130
+Interior loop ( 86, 97) AU; ( 88, 95) GC:   120
+Interior loop ( 88, 95) GC; ( 89, 94) GC:  -330
+Hairpin  loop ( 89, 94) GC              :   450
+Interior loop (105,116) UG; (106,115) AU:  -100
+Interior loop (106,115) AU; (107,114) UA:  -110
+Interior loop (107,114) UA; (108,113) CG:  -240
+Hairpin  loop (108,113) CG              :   410
+Interior loop (117,130) CG; (118,129) AU:  -210
+Interior loop (118,129) AU; (119,128) GU:   -60
+Interior loop (119,128) GU; (120,127) AU:  -130
+Hairpin  loop (120,127) AU              :   510
+Interior loop (141,193) GU; (142,192) AU:  -130
+Interior loop (142,192) AU; (143,191) UA:  -110
+Interior loop (143,191) UA; (144,190) UA:   -90
+Interior loop (144,190) UA; (145,189) CG:  -240
+Interior loop (145,189) CG; (146,188) CG:  -330
+Interior loop (146,188) CG; (147,187) UG:  -210
+Interior loop (147,187) UG; (149,182) AU:   520
+Interior loop (149,182) AU; (150,181) UA:  -110
+Interior loop (150,181) UA; (151,180) UA:   -90
+Interior loop (151,180) UA; (152,179) UG:  -130
+Interior loop (152,179) UG; (153,178) UA:   -60
+Interior loop (153,178) UA; (154,177) UA:   -90
+Interior loop (154,177) UA; (155,176) AU:  -130
+Interior loop (155,176) AU; (156,175) AU:   -90
+Interior loop (156,175) AU; (157,174) AU:   -90
+Interior loop (157,174) AU; (162,168) GC:   210
+Interior loop (162,168) GC; (163,167) AU:  -240
+Hairpin  loop (163,167) AU              :   590
+Interior loop (211,266) AU; (212,265) GC:  -210
+Interior loop (212,265) GC; (213,264) CG:  -340
+Interior loop (213,264) CG; (215,263) CG:    50
+Interior loop (215,263) CG; (216,262) CG:  -330
+Interior loop (216,262) CG; (217,261) UA:  -210
+Interior loop (217,261) UA; (218,260) AU:  -130
+Interior loop (218,260) AU; (225,251) AU:   390
+Interior loop (225,251) AU; (226,250) CG:  -220
+Interior loop (226,250) CG; (227,249) CG:  -330
+Interior loop (227,249) CG; (228,248) AU:  -210
+Interior loop (228,248) AU; (232,245) GU:   400
+Interior loop (232,245) GU; (233,244) CG:  -250
+Interior loop (233,244) CG; (234,243) UA:  -210
+Interior loop (234,243) UA; (235,242) GC:  -210
+Hairpin  loop (235,242) GC              :   430
+Multi    loop (  6,270) GC              :  -260
+AUGGGGUAAGAAUAUUAGAACAGCUUUGUACCAGGUGAACACUAAUAUUUAAUAAUCAAACAAUUUGUGAUACUAACAAAUAGAUAAGGAAAACCAUAUAAUUUUAUCAAUAGAUGCAGAAAAGAAUUUGACAAAACACUGAUUCCUGAUUUUUAAAAAAGGACUUUCAACAGUUUAAGAAUAAAAGGGAAUUUUCUCAACCUAAUAAAAAGCACCUAUGAAAAACCAACAGCUGCCAUCACAGUAAUGGUGAAAGACUUAGGGCUGUCCUCCUAAAA
+..((((...(((((((((....((((......)))).....)))))))))............((((((.......))))))..(((.((....)).))).....((((....))))((((......))))..........(((((((.(((((((((....((...)).....)))))))))....))))))).................(((.((((......((((...((((......))))..))))........)))))))...))))..... (-41.90)
