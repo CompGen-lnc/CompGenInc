@@ -8,7 +8,8 @@ Identificar potenciales lncRNAs involucrados en los procesos de compensación de
 Enero 2024 - Diciembre 2025
 
 ## Persona investigadora encargada
-Dra. Cindy Calderón Arce, Escuela de Matemática\n
+Dra. Cindy Calderón Arce, Escuela de Matemática, Instituto Tecnológico de Costa Rica
+
 ORCID: https://orcid.org/0000-0002-0077-225X
 
 ## Personas asistentes de investigación
@@ -16,9 +17,5 @@ ORCID: https://orcid.org/0000-0002-0077-225X
 - Steven Mora Campos, Ingeniería en Mecatrónica, ITCR
 - Andrés Cubillo Villalobos, MATEC, ITCR
 
-## Organización
-- Docs: Manual de usuario
-- BaseDatos: 
-- ANN:
-- CNN:
-- Transformer:
+## Contacto
+Ante cualquier eventualidad o consulta pueden escribir al ccalderon@itcr.ac.cr
